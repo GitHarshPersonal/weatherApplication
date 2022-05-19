@@ -29,7 +29,6 @@ document.querySelector(".searchArea").addEventListener("keyup", function(event){
     if(event.key == "Enter"){
         weather.fetchWeather(document.querySelector(".searchArea").value);
         document.querySelector(".searchArea").value = "";
-        document.querySelector(".searchArea").disabled = true;
     }
 })
 
